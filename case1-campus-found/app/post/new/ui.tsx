@@ -128,7 +128,7 @@ export function NewPostForm({ initialKind }: { initialKind: Kind }) {
           className="mt-1 w-full rounded-2xl border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none ring-orange-400/30 focus:ring-2"
           value={imageUrl}
           onChange={(e) => setImageUrl(e.target.value)}
-          placeholder="https://images.unsplash.com/…"
+          placeholder="https://picsum.photos/id/1003/800/1000"
         />
       </label>
 

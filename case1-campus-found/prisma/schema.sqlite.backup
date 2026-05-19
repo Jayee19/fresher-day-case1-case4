@@ -1,3 +1,6 @@
+// Use this schema on Vercel: copy to schema.prisma OR set provider to postgresql locally
+// when DATABASE_URL is a Postgres connection string (Neon, Supabase, Vercel Postgres).
+
 generator client {
   provider = "prisma-client-js"
 }

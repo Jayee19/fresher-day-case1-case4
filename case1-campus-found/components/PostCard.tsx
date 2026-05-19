@@ -13,7 +13,7 @@ export function PostCard({ post }: { post: PostWithClaims }) {
   const pending = post.claims?.filter((c) => c.status === "PENDING").length ?? 0;
   const img =
     post.imageUrl ||
-    "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80";
+    "https://picsum.photos/id/1003/800/1000";
 
   return (
     <Link href={`/post/${post.id}`} className="group block overflow-hidden rounded-3xl glass">

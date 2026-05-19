@@ -23,7 +23,7 @@ export function PostDetail({ post, matches, viewerId }: Props) {
 
   const img =
     post.imageUrl ||
-    "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&q=80";
+    "https://picsum.photos/id/1003/1200/900";
 
   async function submitClaim(e: React.FormEvent) {
     e.preventDefault();

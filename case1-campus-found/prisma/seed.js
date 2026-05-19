@@ -15,7 +15,7 @@ async function main() {
       description: "Nalgene-style, small dent near base, physics club sticker peeling.",
       location: "Sports Complex · bleachers · Section B",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 26),
-      imageUrl: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1011/800/1000",
       authorName: "Aisha",
     },
     {
@@ -24,7 +24,7 @@ async function main() {
       description: "Found after intramurals, dent on bottom, half-peeled sticker.",
       location: "Sports Complex · bleachers",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 24),
-      imageUrl: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1015/800/1000",
       authorName: "Leo",
     },
     {
@@ -33,7 +33,7 @@ async function main() {
       description: "White case, tiny crack on hinge, cat sticker on front.",
       location: "Central Library · Level 2 · window seats",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 8),
-      imageUrl: "https://images.unsplash.com/photo-1606220945770-bbfb34e2f192?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1018/800/1000",
       authorName: "Mira",
     },
     {
@@ -42,7 +42,7 @@ async function main() {
       description: "White charging case, hinge crack, left on a window desk.",
       location: "Central Library · Level 2",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 7),
-      imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1025/800/1000",
       authorName: "Noah",
     },
     {
@@ -60,7 +60,7 @@ async function main() {
       description: "TI style, faint etching on the back.",
       location: "Engineering Block · Room 204",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 46),
-      imageUrl: "https://images.unsplash.com/photo-1587145820266-a5951ee78f16?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1035/800/1000",
       authorName: "Riya",
     },
     {
@@ -69,7 +69,7 @@ async function main() {
       description: "Navy lanyard, ID photo has curly hair, small chip on card corner.",
       location: "Student Center · food court",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 3),
-      imageUrl: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1036/800/1000",
       authorName: "Sam",
     },
     {
@@ -87,7 +87,7 @@ async function main() {
       description: "Silver body, leather strap with green stitching.",
       location: "Arts Quad · bench near oak tree",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 72),
-      imageUrl: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1037/800/1000",
       authorName: "Elena",
     },
     {
@@ -96,7 +96,7 @@ async function main() {
       description: "Silver film camera, arts quad bench.",
       location: "Arts Quad · oak tree bench",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 70),
-      imageUrl: "https://images.unsplash.com/photo-1500634245200-e524d2f3b1c3?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1038/800/1000",
       authorName: "Chris",
     },
     {
@@ -105,7 +105,7 @@ async function main() {
       description: "Bright red, loose knit, small coffee stain near fringe.",
       location: "Shuttle stop · North campus",
       occurredAt: new Date(Date.now() - 1000 * 60 * 60 * 12),
-      imageUrl: "https://images.unsplash.com/photo-1520903920243-13d3a50e1ebd?w=800&q=80",
+      imageUrl: "https://picsum.photos/id/1039/800/1000",
       authorName: "Priya",
     },
     {
