@@ -1,0 +1,37 @@
+// Use this schema on Vercel: copy to schema.prisma OR set provider to postgresql locally
+// when DATABASE_URL is a Postgres connection string (Neon, Supabase, Vercel Postgres).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Post {
+  id          String   @id @default(cuid())
+  kind        String
+  title       String
+  description String
+  location    String
+  occurredAt  DateTime
+  imageUrl    String?
+  authorId    String
+  authorName  String
+  status      String   @default("OPEN")
+  createdAt   DateTime @default(now())
+  claims      Claim[]
+}
+
+model Claim {
+  id           String   @id @default(cuid())
+  postId       String
+  post         Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  claimantId   String
+  claimantName String
+  message      String?
+  status       String   @default("PENDING")
+  createdAt    DateTime @default(now())
+}

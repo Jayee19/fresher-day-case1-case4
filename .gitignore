@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+
+# Case 1 — Next.js
+case1-campus-found/node_modules/
+case1-campus-found/.next/
+case1-campus-found/out/
+case1-campus-found/.vercel/
+case1-campus-found/.env
+case1-campus-found/.env*.local
+case1-campus-found/*.db
+case1-campus-found/prisma/*.db
+
+# Case 4 — Python
+case4-churn-detective/.venv/
+case4-churn-detective/__pycache__/
+case4-churn-detective/.ipynb_checkpoints/
+case4-churn-detective/**/*.pyc
