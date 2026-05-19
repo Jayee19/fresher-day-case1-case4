@@ -1,5 +1,6 @@
 # Case 1 — Campus Loop (Lost & Found)
-
+Deployment Link 
+https://fresher-day-case1-case4.vercel.app/
 Instagram-inspired lost & found for a campus: big imagery, fast posting, lightweight matching, and a **claim → poster confirms** flow (multiple claims allowed until one is accepted).
 
 ## Stack
@@ -22,11 +23,6 @@ SQLite on Vercel serverless is not durable. For submission:
 3. Change `prisma/schema.prisma` `provider` to `postgresql` (or use `prisma migrate` on Postgres).
 4. Run `npx prisma db push` (or `migrate deploy`) against production, then seed if desired.
 
-## Demo script (video)
-1. Set your display name in the header.
-2. **I lost something** → post with photo URL, location, story.
-3. Open a seeded **Found** match card → **Send claim** (use a second browser/incognito as “another student”, or clear cookies).
-4. Back in the first browser (poster session), **Confirm match** on the claim.
 
 ## Auth note
 Anonymous **httpOnly `lf_uid`** cookie + optional display name. Good for a prototype; production would use campus SSO (OIDC/SAML) and verified email/phone.
